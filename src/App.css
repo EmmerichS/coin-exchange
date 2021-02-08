@@ -1,0 +1,29 @@
+.app {
+  display: flex;
+}
+
+header {
+  background-color: rgb(7, 6, 51);
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 8rem;
+}
+
+h1 {
+  font-size: 7vmin;
+  color: rgb(166, 187, 189);
+  align-self: center;
+}
+
+table {
+  background-color: rgb(7, 59, 75);
+  color: rgb(166, 187, 189);
+}
+
+th {
+  width: 33.33vw;
+  font-size: 2em;
+}
