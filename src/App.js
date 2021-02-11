@@ -8,7 +8,7 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            balance: 10000,
+            balance: 10000.00,
             coinData: [
                 {
                     name: "Bitcoin",
@@ -41,7 +41,7 @@ class App extends React.Component {
                     <h1>Coin Exchange</h1>
                 </header>
                 <section>
-                    <AccountBalance amount={10000.00} />
+                    <AccountBalance amount={this.state.balance} />
                 </section>
                 <table>
                     <thead>
