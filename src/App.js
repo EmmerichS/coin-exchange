@@ -5,6 +5,26 @@ import logo from './logo.svg';
 import AccountBalance from './AccountBalance/AccountBalance';
 
 class App extends React.Component {
+    contructor(props) {
+        super(props)
+        this.state = {
+            balance: 10000,
+            coinData = [
+                {
+                    name: Bitcoin,
+                    ticker: BTC,
+                    price: 27721.52
+                }
+
+                <Coin name="Bitcoin" ticker="BTC" price={27710.52}/>,
+                <Coin name="Ethereum" ticker="ETH" price={1083.86}/>,
+                <Coin name="Litecoin" ticker="LTC" price={106.68} />,  
+                <Coin name="Monero" ticker="XMR" price={120.12} />
+            ]
+        }
+            
+        
+    }
     render () {
         return (
             <div>
