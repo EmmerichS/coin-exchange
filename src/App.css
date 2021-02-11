@@ -1,5 +1,5 @@
-.app {
-  display: flex;
+body {
+  background-color: rgb(7, 59, 75);
 }
 
 header {
@@ -13,13 +13,12 @@ img {
 }
 
 h1 {
-  font-size: 7vmin;
+  font-size: 4rem;
   color: rgb(166, 187, 189);
   align-self: center;
 }
 
 table {
-  background-color: rgb(7, 59, 75);
   color: rgb(166, 187, 189);
 }
 
