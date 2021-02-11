@@ -52,10 +52,10 @@ class App extends React.Component {
                         </tr>
                     </thead>
                     <tbody>
-                        <Coin name="Bitcoin" ticker="BTC" price={27710.52}/>
-                        <Coin name="Ethereum" ticker="ETH" price={1083.86}/> 
-                        <Coin name="Litecoin" ticker="LTC" price={106.68} />  
-                        <Coin name="Monero" ticker="XMR" price={120.12} />
+                        <Coin name={this.state.coinData[0].name} ticker={this.state.coinData[0].ticker} price={this.state.coinData[0].price}/>
+                        <Coin name={this.state.coinData[1].name} ticker={this.state.coinData[1].ticker} price={this.state.coinData[1].price}/>
+                        <Coin name={this.state.coinData[2].name} ticker={this.state.coinData[2].ticker} price={this.state.coinData[2].price}/>
+                        <Coin name={this.state.coinData[3].name} ticker={this.state.coinData[3].ticker} price={this.state.coinData[3].price}/>
                     </tbody>
                 </table>
             </div>
