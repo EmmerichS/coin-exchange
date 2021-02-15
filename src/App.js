@@ -1,8 +1,12 @@
 import React from "react";
-import './App.css';
 import CoinList from './Components/CoinList/CoinList.js';
-import logo from './logo.svg';
 import AccountBalance from './Components/AccountBalance/AccountBalance';
+import Head from './Components/Head/Head.js';
+import styled from 'styled-components';
+
+const Div = styled.div `
+    background-color: rgb(7, 59, 75);
+`;
 
 class App extends React.Component {
     constructor(props) {
@@ -40,14 +44,11 @@ class App extends React.Component {
     }
     render () {
         return (
-            <div>
-               <header id="header">
-                    <img src={logo} alt="react logo" />
-                    <h1>Coin Exchange</h1>
-                </header>
-                    <AccountBalance amount={this.state.balance} />
-                    <CoinList coinData={this.state.coinData} />
-            </div>
+            <Div>
+                <Head />
+                <AccountBalance amount={this.state.balance} />
+                <CoinList coinData={this.state.coinData} />
+            </Div>
         );
     }
 }

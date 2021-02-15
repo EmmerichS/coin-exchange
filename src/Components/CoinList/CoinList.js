@@ -1,15 +1,25 @@
 import React, { Component } from 'react';
 import Coin from '../Coin Component/Coin.js';
+import styled from 'styled-components';
+
+const Table = styled.table `
+  color: rgb(166, 187, 189);
+`;
+
+const Th = styled.th `
+  width: 33.33vw;
+  font-size: 2em;
+`;
 
 export default class CoinList extends Component {
  render() {
   return (
-    <table>
+    <Table>
      <thead>
        <tr>
-         <th>Name</th>
-         <th>Ticker</th>
-         <th>Price</th>
+         <Th>Name</Th>
+         <Th>Ticker</Th>
+         <Th>Price</Th>
        </tr>
      </thead>
      <tbody>
@@ -19,7 +29,7 @@ export default class CoinList extends Component {
          )
        }          
       </tbody>
-    </table>
+    </Table>
   )
  }
 }
