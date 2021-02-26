@@ -21,7 +21,7 @@ export default class Coin extends Component {
             <tr>
                <Td>{this.props.name}</Td>
                <Td>{this.props.ticker}</Td>
-               <Td>€{this.props.price}</Td>
+               <Td>${this.props.price}</Td>
                {this.props.showBalance ? <Td>{this.props.balance}</Td> : null} 
                <Td>            
                     <button onClick={this.handleClick}>Refresh</button>  
