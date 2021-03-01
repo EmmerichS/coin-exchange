@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import styled from 'styled-components';
 
@@ -18,13 +18,12 @@ const H1 = styled.h1 `
   align-self: center;
 `;
 
-export default class Head extends Component {
- render() {
+export default function Head(props) {
+
   return (   
      <Header> 
       <Img src={logo} alt="react logo" />
       <H1>Coin Exchange</H1>  
      </Header>   
   )
- }
 }
