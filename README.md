@@ -1,4 +1,4 @@
-This project was built in conjunction with my instructor at the Ivan on Tech Academy as an introduction to React.
+This project was built in conjunction with my instructor at the Ivan on Tech Academy as an introduction to React. It's main purpose is as a point of reference for myself.
 
 
 # Getting Started with Create React App
