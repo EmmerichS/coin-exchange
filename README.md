@@ -1,3 +1,6 @@
+This project was built in conjunction with my instructor at the Ivan on Tech Academy as an introduction to React.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
